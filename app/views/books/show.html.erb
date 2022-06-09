@@ -2,5 +2,5 @@
 <%= @book.title %>
 <h2>Body</h2>
 <%= @book.body %>
-<span><%= link_to 'edit', '/books/edit/#{book.id}' %></span>
-<span><%= link_to 'back', '/books/#{book.id}' %></span>
+<span><%= link_to 'edit', '/#{book.id}/edit' %></span>
+<span><%= link_to 'back', '/index' %></span>

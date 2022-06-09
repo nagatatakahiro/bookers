@@ -5,6 +5,6 @@
   <p>Body</p>
   <span><%= book.body %></span>
   <span><%= link_to 'show', '/books/show' %></span>
-  <span><%= link_to 'edit', '/books/edit' %></span>
+  <span><%= link_to 'edit', '/books/#{book.id}/edit' %></span>
   <span><%= link_to 'destroy', '/books/destroy' %></span>
 <% end %>
